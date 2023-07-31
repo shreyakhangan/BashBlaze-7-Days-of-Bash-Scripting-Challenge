@@ -1,0 +1,30 @@
+#!/bin/bash
+# Task 1 - Your task is to create a bash script with comments explaining what the script does.
+# Welcome to this Bash Blaze Challenge on the Shell Scripting Lets Started with the Challenge
+
+# Task 2- echo command is used to display messages on the terminal. task is to create a bash script that uses echo to print a message of your choice.
+echo " Hello Connections "
+
+# Task 3 -Variables in bash are used to store data and can be referenced by their name. Your task is to create a bash script that declares variable
+
+var1=10
+var2=30
+name="Shreya" # we can also assign the  string in the variable
+
+# Task 4 -Variables in bash are used to store data and can be referenced by their name. Your task is to create a bash script that declares variables and assigns values to them
+
+sum=$((var1 + var2 ))
+echo "Sum of $var1 and $var2 is : $sum"
+
+# Task 5 -Bash provides several built-in variables that hold useful information. Your task is to create a bash script that utilizes at least three different built-in variables to display relevant information.
+
+echo "My path to current shell interpreter- $SHELL"
+echo "My home directory" $HOME
+echo "My present working directory - $PWD"
+echo " Show the username of the current user - $USER"
+
+#Task 6 -Your task is to create a bash script that utilizes wildcards to list all the files with a specific extension in a directory.
+
+echo "Listing all the files with .sh extension in current directory"
+ls *.sh
+~                                                                                                                                                           ~                                                                                                                                                           ~                                                                                                                                                           ~                                                                                                                                                           ~                                                                                                                                                           ~                                                                                                                                                           ~                                                                                                                                                           ~                                                                                                                                                           
